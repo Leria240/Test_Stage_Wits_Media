@@ -1,0 +1,113 @@
+html {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0 0 50px;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+}
+
+#title {
+    color: blue;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#subtitle {
+    font-weight: bold;
+}
+
+#description {
+    font-size: 20px;
+}
+
+i #discover-icon {
+    padding-left: 5px;
+}
+
+.row {
+    margin: auto;
+    padding: 10px;
+}
+
+img {
+    border-radius: 5px;
+    width: 700px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 50px 70px;
+}
+
+.players-form {
+    width: 900px;
+}
+
+form {
+    border-radius: 5px;
+}
+
+#form-content {
+    margin: 30px;
+    border: 0;
+}
+
+#form-title {
+    font-size: 20px;
+    text-align: center !important;
+    margin: auto;
+}
+
+#form-subtitle {
+    margin: auto;
+    padding: 10px;
+}
+
+.players-col {
+    margin: auto;
+    padding: 10px;
+}
+
+.btn-col {
+    padding: 0;
+}
+
+#submit-btn {
+    width: 90%;
+}
+
+@media only screen and (max-width: 700px) {
+    #header  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #title {
+        padding: 10px;
+    }
+    #players {
+        display: flex;
+        flex-direction: column;
+    }
+    .players-form {
+        width: 100vw;
+    }
+}
+
+#team-title {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.accordion-collapse {
+    border: none !important;
+}
+
+
+
+
